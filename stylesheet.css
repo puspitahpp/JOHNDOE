@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", serif;
+}
+.full{
+    
+    margin-left: 211px;
+    margin-right: 192px;
+}
+
+.logo{
+   height: 70px; 
+   margin-top: 100px;
+   
+    
+}
+.JOHNchief{
+    line-height: 0px;
+    margin-top: 100px;
+
+}
+
+.JOHNDOE{
+   color:#00b4fe;
+   font-size: 24px;
+}
+
+.chief{
+    color: #424247;
+    font-size: 16px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.info{
+    line-height:1px ;
+}
+.addro{
+    color: #5e5e5e;
+}
+.addrt{
+    color: #5e5e5e;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.addrtre{
+    color: #5e5e5e;   
+}
+.date{
+    color: #5e5e5e;
+    margin-top: 30px;
+    margin-right: 404px;
+}
+.paragraph{
+   margin-left:211px ;
+   color: #5e5e5e; 
+}
+.signature{
+    margin-left: 211px;
+    margin-top:130px ;
+
+}
+.signeimg{
+    height: 50px;
+    width: 100px;
+}
+.Abdullah{
+    color: #5e5e5e;
+    margin: 0px;
+    font-family: "Mulish", serif;
+    font-size: 24px;
+    font-weight: 800px;
+}
+.containertu{
+    display: flex;
+    margin-left: 311px;
+    margin: 40px ;
+}
+
+
+.iconinform{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right:200px; 
+    display: flex; 
+    margin-bottom: 300px;
+}
+.phone{
+    display: flex;
+    align-items: center;
+}
+.icontre{
+    
+    height: 45px;
+    width: 45px;
+    margin-right: 20px;
+}
+.mail{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+.numemadd{
+    line-height: 0.6;
+    color: #424247;
+}
+.coll{
+    
+    height: 45px;
+    width: 45px;
+    margin-right: 20px;
+}
+.add{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
