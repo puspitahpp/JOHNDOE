@@ -93,6 +93,7 @@
 .phone{
     display: flex;
     align-items: center;
+    margin-left: 16px;
 }
 .icontre{
     
@@ -104,6 +105,7 @@
     display: flex;
     align-items: center;
     margin-left: 200px;
+    
 }
 .numemadd{
     line-height: 0.6;
@@ -118,5 +120,72 @@
 .add{
     display: flex;
     align-items: center;
-    margin-left: 200px;
+    margin-left: 70px;
+
+}
+
+@media only screen and
+(max-width: 600px){
+    body{
+        background-size:0% 0%;
+    }        .logo{
+
+        margin-top: 80px;
+        margin-left: 20px;
+       width: 350px;
+    }
+    
+    .JOHNchief{
+        margin-top: 80px;
+        margin-left: 20px;
+    
+    }
+    .date{
+        flex-direction: column;
+        margin-right: 20px;
+       line-height: 0.7; 
+    }
+    .container{
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+    .phone{
+        flex-direction: column;
+    }
+    .numemadd{
+        line-height: 0.7;
+    }
+    .iconinform{
+        margin-top: 80px;
+        margin-left: 20px; 
+        margin-right: 20px;
+        flex-direction: column;
+        
+    }
+    .mail{
+        flex-direction: column;
+        margin-left: 20px;
+    }
+    .add{
+       flex-direction: column;
+        margin-left: 20px;
+    }
+    .paratwo{
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+      .paragraph{
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 80px;
+        text-align: justify;
+      }
+    .Abdullah{
+        margin-left: 150px;
+    }
+    
+    .signeimg{
+            margin-left: 150px;
+        }
+        
 }
