@@ -4,6 +4,12 @@
 *{
     font-family: "Poppins", serif;
 }
+.toppic{
+    height: 300px;
+    
+    margin-right: 100px ;
+    padding: 70px;
+}
 .full{
     
     margin-left: 211px;
@@ -12,7 +18,7 @@
 
 .logo{
    height: 70px; 
-   margin-top: 100px;
+   margin-top: 0px;
    
     
 }
@@ -123,27 +129,39 @@
     margin-left: 70px;
 
 }
+.bottom{
+    margin-left: 211px;
+    margin-top: 20px;
+    height:60px ;
+    width: 950px;
+}
 
 @media only screen and
 (max-width: 600px){
-    body{
-        background-size:0% 0%;
-    }        .logo{
+    .toppic{
+        margin-left:0px;
+        
+    }
+           
+     .logo{
 
         margin-top: 80px;
-        margin-left: 20px;
+        margin-left:0px ;
        width: 350px;
+       
     }
     
     .JOHNchief{
         margin-top: 80px;
-        margin-left: 20px;
-    
+        margin-left: 0px;
+    flex-direction: row;
     }
     .date{
-        flex-direction: column;
-        margin-right: 20px;
-       line-height: 0.7; 
+        
+    
+       line-height: 0.7;
+       flex-direction: row; 
+       margin-left: 20px;
     }
     .container{
         margin-top: 40px;
@@ -181,11 +199,16 @@
         text-align: justify;
       }
     .Abdullah{
-        margin-left: 150px;
+        margin-left: 10px;
     }
     
     .signeimg{
-            margin-left: 150px;
+            margin-left: 0px;
         }
-        
+      .bottom{
+        height: 50px;
+        width: 400px;
+        margin-left:20px ;
+
+      }
 }
